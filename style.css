@@ -20,7 +20,7 @@ body{
 }
 .container{
     width: 290px;
-    height: 420px;
+    height: 450px;
     background:  hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
@@ -30,8 +30,8 @@ body{
 }
 .main-heading{
     font-size:20px ;
-    padding: 12px;
-     /* margin:12px  ;  */
+    /* padding: 12px; */
+     margin:12px  ; 
     text-align: center;
     color: hsl(217, 39%, 27%);
     
@@ -39,6 +39,7 @@ body{
 }
 p{
     font-size: 15px;
+    margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
