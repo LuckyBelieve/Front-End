@@ -29,7 +29,8 @@ body{
 }
 .main-heading{
     font-size:20px ;
-    margin:12px  ;
+    padding: 12px;
+    /* margin:12px  ; */
     text-align: center;
     color: hsl(217, 39%, 27%);
     
@@ -43,9 +44,5 @@ p{
     opacity: 50%;
     color: hsl(220, 15%, 55%);
 }
-/* .attribution{
-    margin: 2rem;
-    
-} */
 
 
