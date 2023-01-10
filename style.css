@@ -1,0 +1,58 @@
+/* @import url(https://fonts.google.com/specimen/Outfit); */
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}img{
+    width: 260px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+body{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: 400, 700;
+    width: 1440px;
+    height: 800px;
+    background:  hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 290px;
+    height: 420px;
+    background:  hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.main-heading{
+    font-size:20px ;
+    margin:12px  ;
+    text-align: center;
+    color: hsl(217, 39%, 27%);
+    
+    
+}
+p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    opacity: 50%;
+    color: hsl(220, 15%, 55%);
+}
+.attribution{
+    margin: 2rem;
+    
+}
+
+@media(max-width:375px)
+   { .container{
+        flex-direction: column;
+    }
+}
