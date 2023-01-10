@@ -30,8 +30,8 @@ body{
 }
 .main-heading{
     font-size:20px ;
-    /* padding: 12px; */
-    /* margin:12px  ; */
+    padding: 12px;
+     /* margin:12px  ;  */
     text-align: center;
     color: hsl(217, 39%, 27%);
     
